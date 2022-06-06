@@ -104,12 +104,12 @@ footer{
   margin-right: 5%;
   }
   /*marginを下20から上下10*/
+  /*→セレクタ名ミス訂正済み*/
 
  .step-box:last-child {
   margin-right:5%;
   margin-bottom:0px;
  }
-
   .step-img1 {
     width:100%;
   }
