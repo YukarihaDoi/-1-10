@@ -10,7 +10,6 @@ header{
   height: 50px;
   background-color:#FF9A4B;
 }
-
 main{
   width:100%;
   margin:50px 0 ;
@@ -19,8 +18,6 @@ main{
   justify-content:center; /* 子要素の横並び・中央寄せ */
 
 }
-  /*padding-top:50px;*/
-  /*padding-bottom:50px;*/
 
 .step-box{
   /*横並びになって欲しい*/
@@ -69,6 +66,7 @@ main{
   background-position: bottom;
   background-size: cover;
 }
+
 .step-img3{
   width:280px;/* 高さ280px */
   height: 150px; /* 高さ150px */
@@ -107,9 +105,12 @@ footer{
   /*→セレクタ名ミス訂正済み*/
 
  .step-box:last-child {
-  margin-right:5%;
+  margin-right: 5%;
   margin-bottom:0px;
  }
+/* ・レスポンシブ時、step-box間の最後の要素(last-child)の余白が適切な余白設定でありません。*/
+/*見本画像を確認していただき、適切な幅の余白を作成しましょう。*/
+
   .step-img1 {
     width:100%;
   }
