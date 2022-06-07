@@ -82,11 +82,12 @@ footer{
 }
 
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   header {
     width: 100%;
   }
-
+/*パソコン表示では横並びになっているboxを、768px以下では縦並びになるようにしましょう。*/
+/*（見本画像は425px想定であり、端末（画面幅）によっては見本画像の高さ幅と一致しない場合があります。）*/
 
   main {
     width: 100%;
